@@ -1,0 +1,192 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+/* body {
+    background-color: brown;
+    color: white;
+}
+h1 {
+    color: black;
+}
+
+/* 1millon
+
+h1 {
+    color: purple;
+} */
+
+/* Selectores */
+
+/* Selector universal */
+/* * {
+    border: 1px solid black;
+    margin: 0px;
+    padding: 0px;
+} */
+
+/* Selector por elemento (tags) */
+/* h1 {
+    background-color: black;
+    color: white;
+    border: 1px solid red;
+} */
+
+
+/* Selector por id los ids no se repiten*/
+/* #title-two, #title-three{
+    color: red;
+    background-color: orange;
+}
+
+#title-three{
+   font-size: 10px;
+}
+
+ */
+
+/* Selector por clase */
+/* .title-h1{
+    color: purple;
+    background-color: cadetblue;
+} */
+
+
+
+/* 1millon de lineas despues */
+/* .title-h1{
+    background-color: black;
+} */
+
+
+/* Selector por atributo */
+/* a[class="prueba"]{
+    color: red;
+} */
+
+/* Selector de seudo-clase */
+
+/* .title-h1{
+    color: green;
+    background-color: blue;
+}
+.title-h1:hover{
+    background-color: red;
+    color: white;
+}
+.prueba-seudo{
+    border: 1px solid black;
+    font-size: 20px;
+}
+.prueba-seudo > li:nth-child(2){ /*Selector de hijo*//*
+    color: red;
+}
+.prueba-seudo > li:nth-child(2):active{
+    color: blue;
+}
+.prueba-seudo > li:nth-child(2):hover{
+    background-color: orange;
+}
+.name{
+    border: 1px solid red;
+}
+.name:focus{
+    border: 2px solid black;
+} */
+
+/* .navbar .navbar-items {
+    border: 1px solid red;
+} */
+
+/* #body{
+    background-color: aquamarine;
+} */
+/* body{
+    background-color: blue;
+} */
+
+
+
+/*
+    1000 !importtant
+*/
+
+/* .box{
+    border:2px solid red;
+    height: 300px;
+    margin-bottom:300px;
+    position: relative;
+}
+.box .one{
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+ */
+ /* .box{
+    border:2px solid red;
+    height: 300px;
+    margin-bottom:300px;
+}
+.box .one{
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    /* margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px; */
+    /* margin: 50px 100px 50px 100px; */
+    /* margin: 50px 100px;
+
+    padding: 5px 5px ; 
+
+} */
+
+/* flexbox display: flex*/
+/* .box{
+    border:2px solid red;
+    height: 300px;
+    margin-bottom:300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+}
+.box .one{
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.navbar{
+    display: flex;
+    justify-content: center;
+}
+
+.navbar .navbar-items{
+    width: 80%;
+    border: 0px solid black;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 15px 5px;
+    margin: 0px;
+}
+.navbar .navbar-items li{
+    background-color: green;
+    padding: 5px 15px;
+}
+.navbar .navbar-items li a{
+    color: white;
+    text-decoration: none;
+}
+.navbar .navbar-items li a:hover{
+    color: brown;
+}
